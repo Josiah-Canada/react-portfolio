@@ -1,12 +1,13 @@
 import React from 'react';
-import Avatar from '../images/avatar.webp'
+import Avatar from '../images/avatar.png'
+import Project from './Project'
 
-function Resume({github,linkdn }) {
+function Resume({github, linkdn}) {
     return (
       <section>
         <h1 id="resume">
 
-            image = {Avatar}
+        <img src={Avatar} alt="cover" width = {200} />
 
         <a href='../resume 5.29.22.pdf' download>Click here to download my Resume</a>
         <ul> Front-end skills
@@ -28,8 +29,7 @@ function Resume({github,linkdn }) {
         </ul>
         </h1>
         <footer>
-        <a href = {github}>github</a>
-        <a href = {linkdn}>Linkdn</a>
+        <Project title = "Link to github and linkdn" github = "https://github.com/Josiah-Canada" linkdn = "https://www.linkedin.com/in/josiah-canada-52794b230/"/>
         </footer>
       </section>
     );
