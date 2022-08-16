@@ -18,7 +18,14 @@ code {
 }
 
 #tabs {
-  font-size: 10px;
+  font-size: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+#navigation {
+  align-items: left;
 }
 
 

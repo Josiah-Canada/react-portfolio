@@ -10,14 +10,16 @@ function App() {
   const [selectedTab, setSelectedTab] = useState("About")
 
   return (
-    <div id="tabs">
+    <div >
 
        <Nav setSelectedTab= {setSelectedTab}></Nav>
       <main className="my-5" >
+        
         {selectedTab === "About" && (<About></About>)}
         {selectedTab === "Portfolio" && (<Portfolio></Portfolio>)}
         {selectedTab === "Contact" && (<Contact></Contact>)}
         {selectedTab === "Resume" && (<Resume></Resume>)}
+        
       </main>
     </div>
   );

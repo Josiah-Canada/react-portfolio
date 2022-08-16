@@ -3,8 +3,8 @@ import React from 'react';
 function Nav({setSelectedTab}) {
     return (
       <section>
-        <h1 id="navigation">
-            <ul>
+        <h1 id="navigation" >
+            <ul id="tabs">
                 <li onClick = {() => setSelectedTab("About")}>About</li>
                 <li onClick = {() => setSelectedTab("Portfolio")}>Portfolio</li>
                 <li onClick = {() => setSelectedTab("Contact")}>Contact</li>
