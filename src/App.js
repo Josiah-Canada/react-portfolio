@@ -4,6 +4,7 @@ import About from './components/About';
 import Nav from './components/Nav';
 import Portfolio from './components/Portfolio'
 import Contact from './components/Contact'
+import Resume from './components/Resume'
 
 function App() {
   const [selectedTab, setSelectedTab] = useState("About")
@@ -16,6 +17,7 @@ function App() {
         {selectedTab === "About" && (<About></About>)}
         {selectedTab === "Portfolio" && (<Portfolio></Portfolio>)}
         {selectedTab === "Contact" && (<Contact></Contact>)}
+        {selectedTab === "Resume" && (<Resume></Resume>)}
       </main>
     </div>
   );

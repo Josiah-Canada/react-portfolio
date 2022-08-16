@@ -8,7 +8,7 @@ function Nav({setSelectedTab}) {
                 <li onClick = {() => setSelectedTab("About")}>About</li>
                 <li onClick = {() => setSelectedTab("Portfolio")}>Portfolio</li>
                 <li onClick = {() => setSelectedTab("Contact")}>Contact</li>
-                <li>Resume</li>
+                <li onClick = {() => setSelectedTab("Resume")}>Resume</li>
             </ul>
         </h1>
 
