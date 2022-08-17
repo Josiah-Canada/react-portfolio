@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/photo-port/static/css/main.7decc770.css",
-    "main.js": "/photo-port/static/js/main.0fa7b531.js",
-    "static/js/787.a2cb61a6.chunk.js": "/photo-port/static/js/787.a2cb61a6.chunk.js",
-    "static/media/Run-buddy.png": "/photo-port/static/media/Run-buddy.5ececb0f989cbdb9bb2a.png",
-    "static/media/Teamwork.jpeg": "/photo-port/static/media/Teamwork.63c076d22893274c16bc.jpeg",
-    "static/media/avatar.png": "/photo-port/static/media/avatar.f0c7a1cf8ffb194e235c.png",
-    "static/media/Budget.png": "/photo-port/static/media/Budget.d8f646f3bddd7d68b76c.png",
-    "static/media/Weather.png": "/photo-port/static/media/Weather.b3704781cb9a6e343d33.png",
-    "static/media/Work.png": "/photo-port/static/media/Work.f52a961586ec6be8e267.png",
-    "static/media/Gen.png": "/photo-port/static/media/Gen.58b801c572d5a0a24c32.png",
-    "index.html": "/photo-port/index.html",
-    "main.7decc770.css.map": "/photo-port/static/css/main.7decc770.css.map",
-    "main.0fa7b531.js.map": "/photo-port/static/js/main.0fa7b531.js.map",
-    "787.a2cb61a6.chunk.js.map": "/photo-port/static/js/787.a2cb61a6.chunk.js.map"
+    "main.css": "/react-portfolio/static/css/main.7decc770.css",
+    "main.js": "/react-portfolio/static/js/main.1c9b5e82.js",
+    "static/js/787.a2cb61a6.chunk.js": "/react-portfolio/static/js/787.a2cb61a6.chunk.js",
+    "static/media/Run-buddy.png": "/react-portfolio/static/media/Run-buddy.5ececb0f989cbdb9bb2a.png",
+    "static/media/Teamwork.jpeg": "/react-portfolio/static/media/Teamwork.63c076d22893274c16bc.jpeg",
+    "static/media/avatar.png": "/react-portfolio/static/media/avatar.f0c7a1cf8ffb194e235c.png",
+    "static/media/Budget.png": "/react-portfolio/static/media/Budget.d8f646f3bddd7d68b76c.png",
+    "static/media/Weather.png": "/react-portfolio/static/media/Weather.b3704781cb9a6e343d33.png",
+    "static/media/Work.png": "/react-portfolio/static/media/Work.f52a961586ec6be8e267.png",
+    "static/media/Gen.png": "/react-portfolio/static/media/Gen.58b801c572d5a0a24c32.png",
+    "index.html": "/react-portfolio/index.html",
+    "main.7decc770.css.map": "/react-portfolio/static/css/main.7decc770.css.map",
+    "main.1c9b5e82.js.map": "/react-portfolio/static/js/main.1c9b5e82.js.map",
+    "787.a2cb61a6.chunk.js.map": "/react-portfolio/static/js/787.a2cb61a6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7decc770.css",
-    "static/js/main.0fa7b531.js"
+    "static/js/main.1c9b5e82.js"
   ]
 }
