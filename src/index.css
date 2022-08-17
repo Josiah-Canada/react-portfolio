@@ -71,8 +71,25 @@ display: inline-block;
 
 #hide {
   text-decoration: none;
-  
+
 }
+
+.github {
+  text-decoration: none;
+}
+
+.pic {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-left: 80px;
+  text-align: center;
+}
+
+#more {
+  margin-left: 25px;
+}
+
 
  
 
