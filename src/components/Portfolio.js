@@ -7,7 +7,7 @@ function Portfolio() {
     return (
       <section>
 
-       <Project title = "Budget tracker" image= {Budget} github = "https://github.com/Josiah-Canada/Budget-tracker">
+       <Project  title = "Budget tracker" image= {Budget} github = "https://github.com/Josiah-Canada/Budget-tracker" deployment= "https://evening-shore-05535.herokuapp.com/">
 
        </Project>
        <Project title = "Run buddy" image = {Budget} github = "https://github.com/Josiah-Canada/run-buddy" deployment= "https://josiah-canada.github.io/run-buddy/">

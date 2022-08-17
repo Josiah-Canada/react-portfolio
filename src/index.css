@@ -69,6 +69,11 @@ display: inline-block;
   display: flex;
 }
 
+#hide {
+  text-decoration: none;
+  
+}
+
  
 
 

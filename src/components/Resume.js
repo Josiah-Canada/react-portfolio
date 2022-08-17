@@ -6,8 +6,9 @@ function Resume({github, linkdn}) {
     return (
       <section>
         <h1 id="resume">
+          <div id="hide">
         <Project github = "https://github.com/Josiah-Canada" linkdn = "https://www.linkedin.com/in/josiah-canada-52794b230/"/>
-
+        </div>
         <img src={Avatar} alt="cover" width = {200} />
 
         <a className="link" href='../resume 5.29.22.pdf' download>Click here to download my Resume</a>
