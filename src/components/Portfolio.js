@@ -5,7 +5,8 @@ import Run from '../images/Run-buddy.png'
 import Team from '../images/Teamwork.jpeg'
 import Work from '../images/Work.png'
 import Gen from '../images/Gen.png'
-import Weather from '../images/Weather.png'
+import Lingua from '../images/lingua.png'
+import Open from '../images/Opensignal.png'
 
 
 function Portfolio() {
@@ -27,8 +28,11 @@ function Portfolio() {
        <Project title = "Password generator" image = {Gen} github = "https://github.com/Josiah-Canada/password-generator" deployment = "https://josiah-canada.github.io/password-generator/">
 
        </Project>
-       <Project title = "Weather dashboard" image = {Weather} github = "https://github.com/Josiah-Canada/weather-dashboard" deployment = "https://josiah-canada.github.io/weather-dashboard/">
+       <Project title = "Lingua" image = {Lingua} github = "https://github.com/SamuelGa25/Project-2-Lingua" deployment = "https://josiah-canada.github.io/weather-dashboard/">
         
+       </Project>
+       <Project title = "Opensignal" image = {Open} github = "https://github.com/alandidiego/finalproject" deployment= "https://git.heroku.com/opensignal.git" >
+
        </Project>
       </section>
     );

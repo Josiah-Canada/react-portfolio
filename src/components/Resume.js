@@ -2,16 +2,16 @@ import React from 'react';
 import Avatar from '../images/avatar.png'
 import Project from './Project'
 
-function Resume({github, linkdn}) {
+function Resume({github, linkdin}) {
     return (
       <section>
         <h1 id="resume">
           <div id="hide">
-        <Project github = "https://github.com/Josiah-Canada" linkdn = "https://www.linkedin.com/in/josiah-canada-52794b230/"/>
+        <Project github = "https://github.com/Josiah-Canada" linkdin = "https://www.linkedin.com/in/josiah-canada-52794b230/"/>
         </div>
         <img src={Avatar} alt="cover" width = {200} />
 
-        <a className="link" href='../resume 5.29.22.pdf' download>Click here to download my Resume</a>
+        <a className="link">Click here to download my Resume</a>
         <ul id="lead" > <a id="middle">Front-end skills</a>
             <li>HTML</li>
             <li>CSS</li>

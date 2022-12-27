@@ -1,6 +1,6 @@
 import React from "react";
 
-function Project({title, image, github, deployment, linkdn}) {
+function Project({title, image, github, deployment, linkdin}) {
     return (
       <section className="pic">
        <h1 className = "project-title">{title}</h1> 
@@ -9,7 +9,7 @@ function Project({title, image, github, deployment, linkdn}) {
        </section>
        <a className="link" href = {github}>github</a>
        {deployment ? <a className="link" href = {deployment}>deployment</a> : <a>{" "}</a>}
-       {linkdn ? <a className="link" href = {linkdn}>linkdn</a> : <a>{" "}</a>}
+       {linkdin ? <a className="link" href = {linkdin}>linkdin</a> : <a>{" "}</a>}
       </section>
     );
   }
