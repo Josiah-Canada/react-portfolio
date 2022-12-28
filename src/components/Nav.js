@@ -2,15 +2,15 @@ import React from "react";
 
 function Nav({ setSelectedTab }) {
   return (
-    <section>
-      <h1 id="navigation"></h1>
-      <aside className = "header" >
-        <a onClick={() => setSelectedTab("About")}>About</a>
-        <a onClick={() => setSelectedTab("Portfolio")}>Portfolio</a>
-        <a onClick={() => setSelectedTab("Contact")}>Contact</a>
-        <a onClick={() => setSelectedTab("Resume")}>Resume</a>
+      <div id="title" >
+      <h1 >Welcome to my portfolio</h1>
+      <aside  className = "header" >
+        <a id="navigation" href="/#" onClick={() => setSelectedTab("About")}>About</a>
+        <a id="navigation" href="/#"onClick={() => setSelectedTab("Portfolio")}>Portfolio</a>
+        <a id="navigation" href="/#" onClick={() => setSelectedTab("Contact")}>Contact</a>
+        <a id="navigation" href="/#" onClick={() => setSelectedTab("Resume")}>Resume</a>
       </aside>
-    </section>
+   </div>
   );
 }
 
