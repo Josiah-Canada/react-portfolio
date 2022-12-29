@@ -114,6 +114,18 @@ display: inline-block;
   line-height: 75%;
 }
 
+#projects {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  row-gap: 20px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#projects img:hover {
+transform: scale(1.2);
+}
+
 
  
 
