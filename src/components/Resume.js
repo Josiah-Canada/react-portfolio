@@ -11,8 +11,8 @@ function Resume({github, linkdin}) {
         </div>
         <img src={Avatar} alt="cover" width = {200} />
 
-        <a className="link">Click here to download my Resume</a>
-        <ul id="lead" > <a id="middle">Front-end skills</a>
+        
+        <ul id="lead" > <h1 id="middle">Front-end skills</h1>
             <li>HTML</li>
             <li>CSS</li>
             <li>Bootstrap</li>
@@ -20,7 +20,7 @@ function Resume({github, linkdin}) {
             <li>Javascript</li>
             <li>Web api's</li>
         </ul>
-        <ul id="lead"><a id="middle">Back-end skills</a>
+        <ul id="lead"><h1 id="middle">Back-end skills</h1>
             <li>Mongo</li>
             <li>MySql</li>
             <li>Handlebars</li>
