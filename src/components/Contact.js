@@ -13,6 +13,7 @@ export const ContactUs = () => {
       }, (error) => {
           console.log(error.text);
       });
+      e.target.reset();
   };
 
   return (
