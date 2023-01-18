@@ -36,7 +36,8 @@ function App() {
         {selectedTab === "Portfolio" && (<Portfolio></Portfolio>)}
         {selectedTab === "Contact" && (<Contact></Contact>)}
         {selectedTab === "Resume" && (<Resume></Resume>)}
-        <button onClick={(e) => download(e)}>Download Resume</button>
+        <button id="submit"onClick={(e) => download(e)}>Download Resume</button>
+       
         
       </main>
     </div>

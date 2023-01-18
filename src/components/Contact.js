@@ -17,14 +17,20 @@ export const ContactUs = () => {
   };
 
   return (
-    <form ref={form} onSubmit={sendEmail}>
+    <form id="card" ref={form} onSubmit={sendEmail}>
+      <div>
       <label>Name</label>
       <input type="text" name="user_name" />
+      </div>
+      <div>
       <label>Email</label>
-      <input type="email" name="user_email" />
+      <input type="text" name="user_email" />
+      </div>
+      <div>
       <label>Message</label>
       <textarea name="message" />
-      <input type="submit" value="Send" />
+      <input id="submit" type="submit" value="Send" />
+      </div>
     </form>
   );
 };
