@@ -7,9 +7,7 @@ function Project({title, image, github, deployment, linkdin}) {
        <h1 className = "project-title">{title}</h1> 
        <a className="link" href = {github} target="_blank" rel="noreferrer">
         <div class="grey-on-hover">
-        <img src = {image} alt = {title} width = {275}>
-          
-          </img>
+        <img src = {image} alt = {title} width = {275}/>
           </div>
           </a>
        {deployment ? <a className="link" href = {deployment} target="_blank" rel="noreferrer">deployment</a> : <p>{" "}</p>}

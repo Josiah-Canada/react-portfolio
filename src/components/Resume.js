@@ -1,17 +1,12 @@
 import React from 'react';
-import Avatar from '../images/avatar.png'
-import Project from './Project'
+import Reslinks from './Reslinks'
 
 function Resume({github, linkdin}) {
     return (
       <section>
         <h1 id="resume">
-          <div id="hide">
-        <Project github = "https://github.com/Josiah-Canada" linkdin = "https://www.linkedin.com/in/josiah-canada-52794b230/"/>
-        </div>
-        <img src={Avatar} alt="cover" width = {200} />
-
-        
+        <Reslinks github = "https://github.com/Josiah-Canada"/>
+        <Reslinks  linkdin = "https://www.linkedin.com/in/josiah-canada-52794b230/"/>
         <ul id="lead" > <h1 id="middle">Front-end skills</h1>
             <li>HTML</li>
             <li>CSS</li>
