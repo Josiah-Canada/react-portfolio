@@ -1,6 +1,6 @@
 import React from "react";
 import Project from "./Project";
-import Budget from "../images/Budget.png";
+import Budget from "./images/Budget.png";
 import Run from "../images/Run-buddy.png";
 import Work from "../images/Work.png";
 import Glam from "../images/glam.png";
