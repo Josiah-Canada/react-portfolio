@@ -1,11 +1,11 @@
 import React from "react";
 import Project from "./Project";
-import Budget from "../images/budget.png";
-import Run from "../images/run-buddy.png";
-import Work from "../images/work.png";
-import Glam from "../images/glam.png";
-import Todo from "../images/todo.png";
-import Musicfind from "../images/music-find.png";
+import Budget from "./images/budget.png";
+import Run from "./images/run-buddy.png";
+import Work from "./images/work.png";
+import Glam from "./images/glam.png";
+import Todo from "./images/todo.png";
+import Musicfind from "./images/music-find.png";
 
 
 
