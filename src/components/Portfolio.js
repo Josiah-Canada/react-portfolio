@@ -16,8 +16,9 @@ function Portfolio() {
         title="Budget tracker"
         image={Budget}
         github="https://github.com/Josiah-Canada/Budget-tracker"
-        deployment="https://evening-shore-05535.herokuapp.com/"
+        deployment="https://lambent-crostata-4841f4.netlify.app/"
       ></Project>
+
       <Project
         title="Run buddy"
         image={Run}
@@ -31,18 +32,21 @@ function Portfolio() {
         github="https://github.com/Josiah-Canada/calender"
         deployment="https://josiah-canada.github.io/calender/"
       ></Project>
+
       <Project
         title="Music find"
         image={Musicfind}
         github="https://github.com/justjulio95/music-find"
         deployment="https://justjulio95.github.io/music-find/"
       ></Project>
+
       <Project
         title="glam on glitz"
         image={Glam}
         github="https://github.com/Josiah-Canada/glam-on-glitzzz"
         deployment="https://josiah-canada.github.io/glam-on-glitzzz/"
       ></Project>
+      
       <Project
         title="todo"
         image={Todo}
